@@ -20,4 +20,3 @@ EXPOSE 9091
 
 # Commande d'exécution
 ENTRYPOINT ["java", "-jar", "barbershop.war"]
-INT ["top", "-b"]
