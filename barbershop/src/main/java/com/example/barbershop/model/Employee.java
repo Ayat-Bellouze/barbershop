@@ -62,4 +62,15 @@ public class Employee {
     public void setImage(String image) {
         this.image = image;
     }
+
+    public Employee() {
+    }
+
+    public Employee(String firstName, String lastName, String email, String password, String image) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.password = password;
+        this.image = image;
+    }
 }

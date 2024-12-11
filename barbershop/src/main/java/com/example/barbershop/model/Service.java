@@ -62,4 +62,15 @@ public class Service {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public Service() {
+    }
+
+    public Service(String description, int duration, double price, String image , String name) {
+        this.description = description;
+        this.name = name;
+        this.duration = duration;
+        this.price = price;
+        this.image = image;
+    }
 }
