@@ -9,7 +9,7 @@ COPY . .
 RUN mvn clean package -DskipTests
 
 # Run stage
-FROM eclipse-temurin:21-jdk-slim
+FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 # Copier l'application construite depuis le stage de build
